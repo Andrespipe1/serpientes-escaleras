@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GameConsole/GameConsole.csproj" />
+    <Project Path="src/GameCore/GameCore.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GameTests/GameTests.csproj" />
+  </Folder>
+</Solution>
