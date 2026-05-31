@@ -9,7 +9,7 @@ public class Uat2TokenMoves3Spaces
     {
         var game = new Game();
 
-        game.Player.Move(3);
+        game.MovePlayer(3);
 
         Assert.Equal(4, game.Player.Position);
     }
