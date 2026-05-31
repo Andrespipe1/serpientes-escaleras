@@ -1,4 +1,5 @@
 ﻿using GameCore;
 
 var game = new Game();
-Console.WriteLine($"El token inicia en la casilla {game.Player.Position}");
+game.TakeTurn();
+Console.WriteLine($"Token en casilla {game.Player.Position} después de la tirada");
