@@ -31,9 +31,10 @@ public class Game
             Status = GameStatus.Won;
     }
 
-    public void TakeTurn()
+    public int TakeTurn()
     {
         int roll = Dice.Roll();
         MovePlayer(roll);
+        return roll;
     }
 }
