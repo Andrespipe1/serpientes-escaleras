@@ -2,5 +2,10 @@ namespace GameCore;
 
 public class Player
 {
-    public int Position { get; } // Inicialmente 0 para que el test falle
+    public int Position { get; private set; } = 1;
+
+    public void Move(int spaces)
+    {
+        Position += spaces;
+    }
 }
